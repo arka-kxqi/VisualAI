@@ -1,0 +1,417 @@
+@import url('global.css');
+
+/* ---------------- Header ---------------- */
+
+
+
+.content-side{
+    margin: 8rem 0rem;
+}
+.content-side h1{
+    font-size: 3rem;
+}
+
+.content-side p{
+    margin: 3rem 1rem 3rem 0rem;
+    color: var(--extra-color);
+}
+
+.image-side img{
+    width: 100%;
+    border-radius: 1rem;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+}
+
+@media only screen and (max-width: 768px) {
+    .header{
+        flex-direction: column;
+    }
+    .two-side-div{
+        width: 100%;
+    }
+}
+
+
+/* --------X-------- Header --------X-------- */
+
+
+
+
+/* ---------------- Book Apoinment ---------------- */
+
+.book-apoinment-wrapper{
+    border: none;
+    padding: 2rem;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  20px 20px 60px #d9d9d9,
+                 -20px -20px 60px #ffffff;
+}
+
+.book-apoinment-wrapper p{
+    color: var(--extra-color);
+    font-size: 1.1rem;
+}
+
+.appoinment-section-wrapper{
+    width: 30%;
+}
+
+
+
+.details-appointment-line input[type="text"]{
+    width: 100%;
+    height: 8em;
+}
+.details-appointment-line{
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 768px) {
+    .top-appointment-line{
+        flex-direction: column;
+    }
+    .appoinment-section-wrapper{
+        width: 75%;
+    }
+}
+
+/* --------X-------- Book Apoinment --------X-------- */
+
+/* ---------------- About Us ---------------- */
+#about-us h1{
+    color: var(--secondary-color);
+}
+#about-us{
+    background: var(--second-bg);
+}
+/* --------X-------- About Us --------X-------- */
+
+/* ---------------- Service ---------------- */
+
+.top-write{
+    text-align: center;
+    margin-bottom: 8rem;
+    font-size:2rem;
+}
+
+
+.single-service{
+    width: 25%;
+}
+
+.single-service h3{
+    color: var(--secondary-color);
+}
+.single-service p{
+    color: var(--extra-color);
+}
+/* --------X-------- Service --------X-------- */
+
+
+/* ---------------- Doctor ---------------- */
+
+#doctor{
+    background: var(--second-bg);
+}
+
+.single-doctor{
+    width: 16rem;
+    height: 18rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    background: linear-gradient(145deg, #d8dcdf, #ffffff);
+}
+
+.doctor-image{
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0.5rem;
+}
+.doctor-image img{
+    width: 100%;
+}
+.single-doctor p{
+    color: var(--extra-color);
+    text-align: center;
+}
+.owl-item {
+    width: 16rem !important;
+    margin: 1rem 3rem;
+    /* height: 18rem; */
+}
+
+
+
+/* --------X-------- Doctor --------X-------- */
+
+/* ---------------- Contact Us ---------------- */
+.contact-us input{
+    margin: 1rem 0;
+}
+input[type="textarea"]{
+    width: 30rem;
+    height: 8rem;
+}
+/* --------X-------- Contact Us --------X-------- */
+
+
+
+/* ---------------- Footer ---------------- */
+
+
+footer{
+    text-align: center;
+    background-color: var(--second-bg);
+}
+.footer{
+    padding: 5rem;
+}
+.footer h2{
+    color: var(--secondary-color);
+    font-size: 2rem;
+}
+.footer p{
+    color: var(--extra-color);
+    font-size: 1.1rem;
+}
+.footer i{
+    font-size: 1.5rem;
+}
+
+.about-us-footer ul{
+    margin: auto;
+    width: 50%;
+}
+
+.footer_copy{
+    margin: 5rem 0 0;
+    color: var(--extra-color);
+}
+
+/* --------X-------- Footer --------X-------- */
+
+
+
+
+
+
+/* ---------------- Profile Page ---------------- */
+
+.profile{
+    align-items: center;
+}
+.profile img{
+    width: 75%;
+    height: auto;
+    margin: 3rem auto;
+    border-radius: 100%;
+}
+
+.profile-data{
+    padding: 2rem 0;
+    color: var(--extra-color);
+}
+.ul-li-in-profile p, .profile-whatisname{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.ul-li-in-profile ul li{
+    list-style: circle;
+}
+
+.profile .btn{
+    display: inline;
+    margin: 1rem 1rem 0px 0rem;
+}
+
+/* --------X-------- Proflie Page --------X-------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------- Chat With Doctor Page ---------------- */
+
+
+#all-chat{
+    position: fixed;
+    top: 15%;
+    width: 25%;
+    height: 85%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.single-chat-acc{
+    width: 90%;
+    border: 1px solid var(--main-color);
+    margin: 1rem auto;
+    border-radius: 6rem;
+}
+
+.single-chat-image{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 1rem 2rem;
+}
+.single-chat-image img{
+    width: 100%;
+}
+
+
+#msg-option{
+    position: fixed;
+    width: 75%;
+    left: 25%;
+    top: 15%;
+}
+.messege-header{
+    height: 5rem;
+    overflow: hidden;
+    border: 1px solid var(--extra-color);
+    position: fixed;
+    width: 100%;
+}
+
+.message-header-image{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 1rem 2rem;
+}
+.message-header-image img{
+    width: 100%;
+}
+
+
+.sent-msg{
+    position: fixed;
+    bottom: 1%;
+    width: 100%;
+}
+.sent-msg input{
+    width: 40rem;
+    height: 3rem;
+    margin: 1rem;
+}
+.sent-msg button{
+    display: inline;
+}
+.sent-msg div{
+    width: 85%;
+    margin: auto;
+}
+
+
+
+.all-msg {
+    position: absolute;
+    top: 5rem;
+    width: 100%;
+    height: 60vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: var(--second-bg);
+}
+.single-msg-full{
+    width: 100%;
+}
+.single-msg {
+    display: flex;
+    width: 45%;
+    overflow: hidden;
+    background-color: var(--main-bg);
+    border: 1px solid var(--main-color);
+    margin: 1rem 0;
+    color: var(--extra-color);
+    align-items: center;
+    border-radius: 6rem;
+}
+
+.msg-image {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 1rem 2rem;
+}
+
+.msg-image img {
+    width: 100%;
+}
+
+.msges {
+    width: 70%;
+}
+
+.left-msg {
+    position: relative;
+    left: 1%;
+}
+
+.right-msg {
+    position: relative;
+    right: -49%;
+}
+
+
+
+
+
+/* --------X-------- Chat With Doctor Page --------X-------- */
+
+
+
+
+
+.login-sighun-wrapper{
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+.login-sighun-wrapper .content-side{
+    margin: 0;
+}
+
+.login-sighun-wrapper input{
+    width: 75%;
+    margin: 1rem 1rem;
+}
+.login-sighun-wrapper .btn{
+    display: inline;
+}
+.google-login-signup i{
+    font-size: 2rem;
+}
+
+
+
+/* ---------------- Appointment Page ---------------- */
+
+
+
+
+.appoinment-wrapper{
+    text-align: center;
+    overflow-y: scroll;
+    margin:8% 0;
+}
+
+
+/* --------X-------- Appointment Page --------X-------- */
